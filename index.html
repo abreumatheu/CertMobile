@@ -18,6 +18,7 @@
         .container {
             width: 90%;
             margin: 0 auto;
+            max-width: 1200px; /* Para limitar a largura em telas maiores */
         }
 
         header {
@@ -61,6 +62,7 @@
             display: flex;
             justify-content: center;
             margin-top: 30px;
+            flex-wrap: wrap;
         }
 
         .tab {
@@ -85,8 +87,10 @@
 
         .content table {
             width: 100%;
+            max-width: 100%;
             border-collapse: collapse;
             margin-bottom: 30px;
+            word-wrap: break-word; /* Para evitar o estouro de palavras longas */
         }
 
         .content table th, .content table td {
